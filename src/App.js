@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
+import Home from './modules/Home';
 import Header from './components/Header';
-import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className=' text-gray-600 text-4xl'>
+    <div>
       <Header/>
-      <Hero/>
+      <Home/>
+      <Footer/>
     </div>
   );
 }
