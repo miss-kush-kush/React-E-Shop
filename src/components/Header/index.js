@@ -41,11 +41,11 @@ const Header = () => {
           }
           
         </nav>
-        <button className="inline-flex items-center bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-base text-white mt-4 md:mt-0">Go to Cart
+        <Link to={'/cart'} className="inline-flex items-center bg-green-500 border-0 py-2 px-4 focus:outline-none hover:bg-green-600 rounded text-base text-white mt-4 md:mt-0">Go to Cart
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
-        </button>
+        </Link>
       </div>
     </header>
   )
